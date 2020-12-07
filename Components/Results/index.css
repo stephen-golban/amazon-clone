@@ -1,0 +1,150 @@
+/* CAROUSEL STYLES *********************** */
+
+.results__row {
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.results__row>nav {
+    position: absolute;
+    left: 0;
+}
+
+.results__row>span {
+    font-size: 15px;
+}
+
+.products__container {
+    padding: 0 200px;
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.products__container>.sidebar__left {
+    width: 250px;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    border-right: 1px solid #ddd;
+    min-height: 100vh;
+}
+
+.products__container>.sidebar__left>a {
+    color: black;
+    text-decoration: none;
+    transition: .1s;
+}
+
+.products__container>.sidebar__left>a:hover {
+    color: orange;
+}
+
+.products__container>.sidebar__left>.custom-checkbox>a {
+    text-decoration: none;
+    color: black;
+    transition: .1s;
+}
+
+.products__container>.sidebar__left>.custom-checkbox>a:hover {
+    color: orange;
+}
+
+.products__container>.products {
+    display: flex;
+    flex-direction: column;
+}
+
+.products__container>.products>.product {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+}
+
+.products__container>.products>.product>a>img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.products__container>.products>.product>.product__body {
+    margin-left: 20px;
+}
+
+.products__container>.products>.product>.product__body>a {
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: black;
+    cursor: pointer;
+    transition: .1s;
+}
+
+.products__container>.products>.product>.product__body>a:hover {
+    color: orange;
+}
+
+.products__container>.products>.product>.product__body>p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.products__container>.products>.product>.product__body>.rating>.checked {
+    color: orange;
+}
+
+@media screen and (max-width: 1200px) {
+    .products__container {
+        padding: 0 50px;
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .products__container {
+        padding: 0 20px;
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+    }
+    .products__container>.products>.product>a {
+        font-size: 10px;
+    }
+    .products__container>.products>.product>a>img {
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+    }
+    .products__container>.products>.product>.product__body>a {
+        font-size: 10px;
+    }
+    .products__container>.products>.product>.product__body>a {
+        text-decoration: none;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: black;
+        cursor: pointer;
+        transition: .1s;
+    }
+}
+
+
+/* FOOTER STYLES ************************* */
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    width: 100%;
+}
