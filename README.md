@@ -1,5 +1,5 @@
 # Amazon clone built in pure php (procedural)
-## Demo =====> https://amazzonclone.000webhostapp.com 
+### https://amazzonclone.000webhostapp.com 
 > Accessing the website might give you a **risk warning**, but be sure - it's totally safe.
 ```bash
 If you want to run it locally, then run it on php version 5.6 or above.
